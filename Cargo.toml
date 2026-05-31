@@ -1,0 +1,15 @@
+[package]
+name = "lau-compilers"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-compilers"
+description = "Compiler construction fundamentals: lexing, parsing, type checking, SSA, IR, optimization, and agent DSL"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+regex = "1.12.3"
+
+[lib]
+path = "src/lib.rs"
